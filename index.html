@@ -7,6 +7,9 @@
   <meta name="description" content="Find healthy restaurants downtown Iowa City and Coralville with the healthiest order, price, and a high-protein pick at each spot. Made for UI students.">
   <link rel="canonical" href="https://r5ffi.github.io/">
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400..700&amp;family=Fraunces:opsz,wght,SOFT@9..144,300..900,0..100&amp;display=swap">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,129 +22,133 @@
   <a class="skip-link" href="#main">Skip to main content</a>
 
   <header class="site-header">
-    <div class="wrap header-inner">
-      <div class="brand">
-        <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><circle cx="24" cy="24" r="24" fill="#2b6a3d"/><path d="M14 33c0-11 8-19 21-20-1 13-9 21-20 21z" fill="#a9d89a"/><path d="M15.5 32.5c4-6 9-11 15-15" fill="none" stroke="#2b6a3d" stroke-width="2.2" stroke-linecap="round"/></svg>
-        <span><span class="brand-name">Iowa City Healthy Eats</span><span class="brand-tagline">Eat out. Eat well.</span></span>
-      </div>
+    <div class="wrap wrap-wide header-inner">
+      <div class="wordmark"><span class="wordmark-top">Iowa City</span> <span class="wordmark-main">Healthy Eats</span></div>
       <nav class="main-nav" aria-label="Main">
         <ul>
           <li><a href="./" aria-current="page">Healthy Restaurants Downtown</a></li>
-          <li><a href="under-10/">Cheap Healthy Food Under $10</a></li>
           <li><a href="late-night/">Healthy Late Night Food</a></li>
           <li><a href="high-protein/">High Protein Meals</a></li>
+          <li class="nav-cta"><a href="under-10/">Cheap Healthy Food Under $10</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero hero-home">
+    <section class="hero">
       <div class="wrap hero-grid">
         <div>
-          <div class="eyebrow">Student guide &middot; Downtown Iowa City &amp; Coralville</div>
+          <div class="punch">Takeout, minus the <strong>regret.</strong></div>
           <h1>The Student Guide to Healthy Restaurants Downtown Iowa City</h1>
-          <p class="lede">Eating out most days doesn't have to mean giving up on eating well. Iowa City Healthy Eats is a student-written guide to the best healthy restaurants downtown Iowa City and Coralville have to offer, made for University of Iowa students who grab most meals between classes, shifts, and workouts. For every spot we list the healthiest order, what it costs, its calories, and a high-protein pick, so finding healthy food Iowa City students actually want to eat takes seconds, not a menu deep-dive.</p>
-          <ul class="chips">
-            <li>15 restaurants</li>
-            <li>3 guides</li>
-            <li>Updated October 2026</li>
+          <p class="lede">You eat out most days. Same. Iowa City Healthy Eats is a student-written guide to the best healthy restaurants downtown Iowa City and Coralville have to offer, with the healthiest order, the price, the calories, and a high-protein pick at every spot. Finding healthy food Iowa City students actually crave now takes about ten seconds.</p>
+          <ul class="glance">
+            <li><strong>15</strong> restaurants</li>
+            <li><strong>3</strong> guides</li>
+            <li><strong>0</strong> meal prep</li>
           </ul>
+          <a class="btn btn-light" href="#guides">Browse the healthy food guides</a>
         </div>
         <div class="hero-art">
-          <img src="images/healthy-grain-bowl.svg" width="600" height="450" alt="Illustration of a grain bowl with greens, grilled chicken, avocado, and cherry tomatoes, the kind of order you can find at healthy restaurants in downtown Iowa City">
+          <img src="images/home-healthy-bowls.svg" width="600" height="600" alt="Illustrated grain bowl with greens, grilled chicken, avocado, and cherry tomatoes next to a bowl of edamame, the kind of order you'll find at healthy restaurants in downtown Iowa City">
         </div>
       </div>
     </section>
 
-    <section class="section section-alt" aria-labelledby="guides-title">
+    <section class="section" id="guides" aria-labelledby="guides-title">
       <div class="wrap">
-        <h2 id="guides-title">Pick the Guide That Fits Your Day</h2>
-        <p class="section-intro">Each guide features five restaurants you won't see on the other two, so every page gives you new places to try.</p>
-        <ul class="guide-grid">
-          <li class="guide-card">
-            <img src="images/lentil-bowl-under-10.svg" width="600" height="450" alt="Illustration of a red lentil and rice bowl with a $7.75 price tag, one of the cheap healthy food picks in Iowa City">
-            <div class="guide-body">
-              <h3>On a tight budget</h3>
-              <p>Five filling meals that each ring up under $10, from a $6.50 turkey and white bean chili to lemongrass chicken rice paper rolls. Made for the week before payday.</p>
-              <a class="btn" href="under-10/">Cheap healthy food under $10</a>
-            </div>
+        <div class="section-head">
+          <h2 id="guides-title">Three guides. Fifteen spots. <span>Zero guesswork.</span></h2>
+          <p>Pick the one that matches your day. Each guide has five spots you won't find on the other two.</p>
+        </div>
+        <ul class="card-row">
+          <li class="place-card">
+            <div class="card-circle"><img src="images/under-10-lentil-bowl.svg" width="600" height="600" alt="Illustrated red lentil bowl and turkey chili with a $7.75 price tag, from the guide to cheap healthy food in Iowa City"></div>
+            <h3>Under $10</h3>
+            <p class="place-detail">5 spots &middot; from $6.50</p>
+            <p>Lentil bowls, turkey chili, and fresh rolls that ring up under ten bucks. Payday is optional.</p>
+            <a class="btn btn-navy" href="under-10/">Cheap healthy food under $10</a>
           </li>
-          <li class="guide-card">
-            <img src="images/late-night-pho.svg" width="600" height="450" alt="Illustration of a steaming bowl of chicken pho under a crescent moon, one of the healthy late night food picks in Iowa City">
-            <div class="guide-body">
-              <h3>Hungry after 10 p.m.</h3>
-              <p>Five spots in downtown Iowa City and Coralville that stay open late, with orders that beat a 1 a.m. slice: chicken pho, salmon poke, grilled fish tacos, and more.</p>
-              <a class="btn" href="late-night/">Healthy late night food in Iowa City</a>
-            </div>
+          <li class="place-card">
+            <div class="card-circle"><img src="images/late-night-pho-bowl.svg" width="600" height="600" alt="Illustrated bowl of chicken pho under a crescent moon, from the guide to healthy late night food in Iowa City"></div>
+            <h3>After 10 p.m.</h3>
+            <p class="place-detail">5 spots &middot; open till 4 a.m.</p>
+            <p>Pho, poke, and grilled fish tacos for when the only other option is a greasy slice.</p>
+            <a class="btn btn-navy" href="late-night/">Healthy late night food in Iowa City</a>
           </li>
-          <li class="guide-card">
-            <img src="images/high-protein-plate.svg" width="600" height="450" alt="Illustration of a plate of grilled chicken, rice, and broccoli, one of the high protein meals in Iowa City for gym days">
-            <div class="guide-body">
-              <h3>Training for something</h3>
-              <p>Five places where one order gets you 58 grams of protein or more, with calories listed so you can hit your macros without meal prepping on Sunday.</p>
-              <a class="btn" href="high-protein/">High protein meals in Iowa City</a>
-            </div>
+          <li class="place-card">
+            <div class="card-circle"><img src="images/high-protein-chicken-plate.svg" width="600" height="600" alt="Illustrated plate of grilled chicken, rice, and broccoli, from the guide to high protein meals in Iowa City"></div>
+            <h3>High protein</h3>
+            <p class="place-detail">5 spots &middot; 58 to 78 g protein</p>
+            <p>Gym-day plates with the macros spelled out. Your meal prep can take the week off.</p>
+            <a class="btn btn-navy" href="high-protein/">High protein meals in Iowa City</a>
           </li>
         </ul>
       </div>
     </section>
 
-    <section class="section" aria-labelledby="how-title">
-      <div class="wrap narrow">
-        <h2 id="how-title">How to Use This Guide</h2>
-        <p class="section-intro">Every restaurant card follows the same layout, so you can compare spots in a few seconds.</p>
+    <section class="section section-navy" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="how-title">How to <span>Use This Guide</span></h2>
+          <p>Four steps. No calorie math required.</p>
+        </div>
         <ol class="steps">
-          <li><strong>Pick your situation.</strong> Choose the budget, late-night, or high-protein guide based on the kind of day you're having.</li>
-          <li><strong>Read the healthiest order first.</strong> It's the most balanced meal on that menu, with its price, calories, and protein listed right under it.</li>
-          <li><strong>Switch to the high-protein pick on gym days.</strong> It's the order with the most protein that still skips the fryer.</li>
-          <li><strong>Check the neighborhood tag.</strong> Downtown Iowa City spots are easy to walk to; Coralville spots are a short bus or car ride west.</li>
-          <li><strong>Order it exactly as written.</strong> Smart swaps, like dressing on the side or fruit instead of chips, are already built into every order we list.</li>
+          <li><span class="step-title">Pick your guide.</span> Budget, late night, or protein. Go with whatever kind of day you're having.</li>
+          <li><span class="step-title">Order the healthiest pick.</span> It's the most balanced meal on the menu, with the price, calories, and protein right under it.</li>
+          <li><span class="step-title">Gym day? Go high-protein.</span> Every spot has a second order built for lifters, runners, and rowers.</li>
+          <li><span class="step-title">Order it exactly as written.</span> Smart swaps, like dressing on the side, are already baked in.</li>
         </ol>
       </div>
     </section>
 
-    <section class="section section-alt" aria-labelledby="criteria-title">
+    <section class="section" aria-labelledby="criteria-title">
       <div class="wrap split">
         <div>
-          <h2 id="criteria-title">How We Choose the Best Healthy Restaurants Downtown Iowa City</h2>
-          <p>Every restaurant on this site had to clear the same four rules before we added it.</p>
+          <h2 id="criteria-title">How We Pick the Best Healthy Restaurants Downtown Iowa City</h2>
+          <p>Every spot has to pass four tests before it makes the list. No exceptions.</p>
           <ul class="checklist">
-            <li><strong>Real vegetables, not garnish.</strong> The healthiest order includes at least two servings of vegetables, beans, or fruit.</li>
-            <li><strong>At least 15 grams of protein.</strong> Enough to keep you full until your next meal instead of snacking an hour later.</li>
-            <li><strong>Under 650 calories.</strong> Every healthiest order on the site lands between about 390 and 610 calories.</li>
-            <li><strong>Nothing deep-fried.</strong> Both the healthiest order and the high-protein pick are grilled, roasted, steamed, or fresh.</li>
+            <li><strong>Real vegetables.</strong> At least two servings of vegetables, beans, or fruit in the healthiest order.</li>
+            <li><strong>Real protein.</strong> 15 grams or more, so you're not hungry again by 3 p.m.</li>
+            <li><strong>Under 650 calories.</strong> Every healthiest order lands between 390 and 610.</li>
+            <li><strong>Nothing deep-fried.</strong> Grilled, roasted, steamed, or fresh. That's the deal.</li>
           </ul>
-          <p>Calories and protein are our best estimates for each order as written, rounded to the nearest 10 calories and the nearest gram.</p>
         </div>
         <figure class="figure">
-          <img src="images/iowa-city-coralville-map.svg" width="600" height="450" alt="Simple illustrated map of downtown Iowa City and Coralville with pins marking the 15 healthy restaurants in this guide">
-          <figcaption>Nine of our picks are in downtown Iowa City and six are in Coralville.</figcaption>
+          <img src="images/map-downtown-coralville.svg" width="600" height="450" alt="Illustrated map of downtown Iowa City and Coralville with pins marking all 15 healthy restaurants in this guide">
+          <figcaption>Nine picks downtown, six in Coralville. Downtown is walkable, and Coralville is a quick bus ride west.</figcaption>
         </figure>
       </div>
     </section>
 
     <section class="section" aria-labelledby="about-title">
-      <div class="wrap narrow">
-        <h2 id="about-title">Who Puts This Guide Together</h2>
-        <p>Iowa City Healthy Eats is written by two University of Iowa students who eat out more than they'd like to admit. Priya Halvorsen is a senior studying nutrition who reads every menu like a food label. Marcus Delacroix-Beck is a junior on a club rowing team who needs a lot of protein and has very little time to cook. They order every meal on this site themselves, ask about swaps at the counter, and update the guide every semester.</p>
-        <p>Not sure where to start? Match the guide to your day: <a href="under-10/">cheap healthy food under $10</a> when money is tight, <a href="late-night/">healthy late night food in Iowa City</a> when you're up past 10 p.m., or <a href="high-protein/">high protein meals in Iowa City</a> after a workout.</p>
+      <div class="wrap">
+        <div class="about-panel">
+          <h2 id="about-title">Who's Behind <span>the Forks</span></h2>
+          <p>Two University of Iowa students who eat out way more than they'd like to admit. Priya Halvorsen is a nutrition senior who reads menus like food labels. Marcus Delacroix-Beck is a junior on a club rowing team who needs a mountain of protein and has zero time to cook. They order every meal on this site themselves and refresh the guide every semester.</p>
+          <p>Start where your day is: <a href="under-10/">cheap healthy food under $10</a> when money's tight, <a href="late-night/">healthy late night food in Iowa City</a> after 10 p.m., or <a href="high-protein/">high protein meals in Iowa City</a> after a workout.</p>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <div class="wordmark"><span class="wordmark-top">Iowa City</span> <span class="wordmark-main">Healthy Eats</span></div>
+          <p class="footer-tagline">Takeout, minus the regret.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <ul>
+            <li><a href="./" aria-current="page">Healthy Restaurants Downtown</a></li>
+            <li><a href="under-10/">Cheap Healthy Food Under $10</a></li>
+            <li><a href="late-night/">Healthy Late Night Food</a></li>
+            <li><a href="high-protein/">High Protein Meals</a></li>
+          </ul>
+        </nav>
+      </div>
       <p class="footer-notice">This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
-      <nav class="footer-nav" aria-label="Footer">
-        <ul>
-          <li><a href="./" aria-current="page">Healthy Restaurants Downtown</a></li>
-          <li><a href="under-10/">Cheap Healthy Food Under $10</a></li>
-          <li><a href="late-night/">Healthy Late Night Food</a></li>
-          <li><a href="high-protein/">High Protein Meals</a></li>
-        </ul>
-      </nav>
-      <p class="footer-small">Iowa City Healthy Eats &middot; Every restaurant, menu item, price, and person on this site is invented. Last updated October 2026.</p>
     </div>
   </footer>
 </body>
