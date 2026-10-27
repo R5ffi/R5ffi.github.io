@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <pattern id="quinoa-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#f2deb0"/>
+      <circle cx="3" cy="3" r="2.2" fill="#e2c78c"/>
+      <circle cx="9" cy="8" r="2" fill="#fff6e2"/>
+      <circle cx="9" cy="2" r="1.4" fill="#c0504d"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="450" fill="#e6f2e2"/>
+  <circle cx="110" cy="90" r="140" fill="#d6ebcf"/>
+
+  <!-- dumbbell -->
+  <g transform="rotate(-8 300 120)">
+    <ellipse cx="306" cy="190" rx="200" ry="12" fill="#1d2a22" opacity="0.08"/>
+    <rect x="182" y="112" width="236" height="16" rx="8" fill="#8a958e"/>
+    <g stroke="#6f7a73" stroke-width="2">
+      <path d="M260 113 v14 M272 113 v14 M284 113 v14 M296 113 v14 M308 113 v14 M320 113 v14 M332 113 v14 M344 113 v14"/>
+    </g>
+    <rect x="116" y="104" width="14" height="32" rx="5" fill="#4b5850"/>
+    <rect x="128" y="80" width="24" height="80" rx="8" fill="#2b6a3d"/>
+    <rect x="150" y="60" width="34" height="120" rx="10" fill="#1d4a2a"/>
+    <rect x="416" y="60" width="34" height="120" rx="10" fill="#1d4a2a"/>
+    <rect x="448" y="80" width="24" height="80" rx="8" fill="#2b6a3d"/>
+    <rect x="470" y="104" width="14" height="32" rx="5" fill="#4b5850"/>
+    <rect x="156" y="68" width="6" height="104" rx="3" fill="#ffffff" opacity="0.15"/>
+    <rect x="422" y="68" width="6" height="104" rx="3" fill="#ffffff" opacity="0.15"/>
+  </g>
+
+  <!-- cutting board -->
+  <rect x="128" y="242" width="360" height="170" rx="30" fill="#1d2a22" opacity="0.08"/>
+  <rect x="460" y="290" width="74" height="52" rx="26" fill="#d9a46a"/>
+  <circle cx="508" cy="316" r="9" fill="#e6f2e2"/>
+  <rect x="120" y="232" width="360" height="170" rx="30" fill="#d9a46a"/>
+  <g fill="none" stroke="#c9904f" stroke-width="3" stroke-linecap="round">
+    <path d="M150 262 H300 M330 262 H450 M150 382 H260 M300 382 H450"/>
+  </g>
+
+  <!-- salmon fillet -->
+  <path d="M160 302 C170 257 260 247 330 264 C380 276 400 302 392 332 C360 362 240 367 175 347 C160 340 156 320 160 302 Z" fill="#f28b5b"/>
+  <path d="M175 347 C240 367 360 362 392 332 C388 346 372 356 352 362 C290 376 212 370 178 356 Z" fill="#c95f36"/>
+  <g fill="none" stroke="#ffd2bd" stroke-width="5" stroke-linecap="round">
+    <path d="M206 266 C222 296 216 326 204 352"/>
+    <path d="M246 258 C262 290 258 326 246 360"/>
+    <path d="M288 258 C304 292 300 330 290 362"/>
+    <path d="M330 266 C346 296 344 330 334 358"/>
+    <path d="M368 280 C380 300 378 324 370 344"/>
+  </g>
+
+  <!-- lemon slice and dill -->
+  <circle cx="434" cy="288" r="26" fill="#f6d04d" stroke="#f2c230" stroke-width="5"/>
+  <path d="M434 266 V310 M412 288 H456 M418 272 L450 304 M450 272 L418 304" stroke="#f2c230" stroke-width="2.5"/>
+  <g fill="none" stroke="#3f8a4d" stroke-width="3" stroke-linecap="round">
+    <path d="M410 360 C420 344 438 336 456 332"/>
+    <path d="M422 350 l-4 -12 M434 342 l-2 -12 M446 336 l0 -12 M430 346 l8 8 M442 339 l9 7"/>
+  </g>
+
+  <!-- quinoa bowl -->
+  <ellipse cx="72" cy="404" rx="58" ry="10" fill="#1d2a22" opacity="0.1"/>
+  <path d="M14 360 A58 44 0 0 0 130 360 Z" fill="#2b6a3d"/>
+  <ellipse cx="72" cy="360" rx="58" ry="12" fill="#1d4a2a"/>
+  <path d="M20 361 Q72 326 124 361 Z" fill="url(#quinoa-dots)"/>
+  <ellipse cx="72" cy="361" rx="52" ry="8" fill="url(#quinoa-dots)"/>
+</svg>

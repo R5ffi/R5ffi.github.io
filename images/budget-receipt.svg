@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <rect width="600" height="450" fill="#e6f2e2"/>
+  <circle cx="480" cy="84" r="124" fill="#d6ebcf"/>
+  <circle cx="90" cy="400" r="96" fill="#d6ebcf"/>
+
+  <!-- spoon -->
+  <g transform="rotate(-12 110 220)" fill="#b7c5bc">
+    <ellipse cx="110" cy="118" rx="22" ry="30"/>
+    <rect x="103" y="140" width="14" height="190" rx="7"/>
+  </g>
+
+  <g transform="rotate(-4 300 225)">
+    <!-- receipt -->
+    <path d="M193 50 H423 V400 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 Z" fill="#1d2a22" opacity="0.08"/>
+    <path d="M185 40 H415 V390 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 l-11.5 12 l-11.5 -12 Z" fill="#ffffff"/>
+
+    <g font-family="'Courier New', Courier, monospace" fill="#1d2a22">
+      <text x="300" y="88" text-anchor="middle" font-size="19" font-weight="700">BROTHWELL SOUP CO.</text>
+      <text x="300" y="112" text-anchor="middle" font-size="13" fill="#4b5850">DOWNTOWN IOWA CITY</text>
+
+      <text x="208" y="162" font-size="16">Chili cup</text>
+      <text x="392" y="162" font-size="16" text-anchor="end">5.25</text>
+      <text x="208" y="190" font-size="16">Side salad</text>
+      <text x="392" y="190" font-size="16" text-anchor="end">1.25</text>
+      <text x="208" y="218" font-size="16">Water</text>
+      <text x="392" y="218" font-size="16" text-anchor="end">0.00</text>
+
+      <text x="208" y="276" font-size="18" font-weight="700">SUBTOTAL</text>
+      <text x="392" y="276" font-size="18" font-weight="700" text-anchor="end">$6.50</text>
+
+      <text x="300" y="326" text-anchor="middle" font-size="12" fill="#4b5850">&#8776; 390 CAL &#183; 27 G PROTEIN</text>
+      <text x="300" y="352" text-anchor="middle" font-size="13" fill="#4b5850">THANK YOU!</text>
+    </g>
+    <path d="M205 134 H395 M205 242 H395" stroke="#c9c2b4" stroke-width="2" stroke-dasharray="6 6"/>
+  </g>
+
+  <!-- stamp -->
+  <g transform="translate(486 318) rotate(-14)">
+    <circle r="58" fill="#ffffff" fill-opacity="0.55" stroke="#c2412d" stroke-width="5"/>
+    <circle r="49" fill="none" stroke="#c2412d" stroke-width="2"/>
+    <text y="-6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#c2412d">UNDER</text>
+    <text y="24" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#c2412d">$10</text>
+  </g>
+</svg>

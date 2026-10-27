@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <rect width="600" height="450" fill="#1f2747"/>
+
+  <!-- stars -->
+  <g fill="#ffffff">
+    <circle cx="60" cy="60" r="2.5" opacity="0.9"/>
+    <circle cx="140" cy="36" r="1.8" opacity="0.7"/>
+    <circle cx="214" cy="84" r="2.2" opacity="0.8"/>
+    <circle cx="330" cy="40" r="1.6" opacity="0.6"/>
+    <circle cx="380" cy="100" r="2.4" opacity="0.85"/>
+    <circle cx="548" cy="186" r="2" opacity="0.7"/>
+    <circle cx="80" cy="172" r="1.6" opacity="0.6"/>
+    <circle cx="566" cy="36" r="1.8" opacity="0.7"/>
+    <circle cx="30" cy="252" r="2" opacity="0.5"/>
+    <circle cx="270" cy="22" r="1.6" opacity="0.6"/>
+  </g>
+  <g fill="#f6c768">
+    <path d="M110 104 l5 14 l14 5 l-14 5 l-5 14 l-5 -14 l-14 -5 l14 -5 z"/>
+    <path d="M532 118 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z"/>
+  </g>
+
+  <!-- crescent moon -->
+  <circle cx="470" cy="92" r="46" fill="#f6d04d"/>
+  <circle cx="492" cy="76" r="42" fill="#1f2747"/>
+
+  <!-- steam -->
+  <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.45">
+    <path d="M240 186 c-16 -20 16 -34 0 -56"/>
+    <path d="M300 176 c-16 -20 16 -34 0 -56"/>
+    <path d="M360 186 c-16 -20 16 -34 0 -56"/>
+  </g>
+
+  <!-- bowl -->
+  <ellipse cx="300" cy="398" rx="215" ry="22" fill="#000000" opacity="0.25"/>
+  <rect x="235" y="366" width="130" height="24" rx="10" fill="#a63a1a"/>
+  <path d="M110 240 A190 140 0 0 0 490 240 Z" fill="#e2553f"/>
+  <path d="M132 290 Q300 330 468 290" fill="none" stroke="#fff3e8" stroke-width="6" stroke-linecap="round" stroke-dasharray="14 12"/>
+  <ellipse cx="300" cy="240" rx="190" ry="36" fill="#b8411f"/>
+
+  <!-- broth -->
+  <ellipse cx="300" cy="242" rx="172" ry="28" fill="#e8b765"/>
+
+  <!-- noodles -->
+  <g fill="none" stroke="#fff6e0" stroke-width="4" stroke-linecap="round">
+    <path d="M168 246 q15 -10 30 0 t30 0 t30 0"/>
+    <path d="M180 256 q15 -9 30 0 t30 0"/>
+    <path d="M300 258 q15 -9 30 0 t30 0 t30 0"/>
+  </g>
+
+  <!-- chicken -->
+  <g fill="#f3d6a4" stroke="#d9b077" stroke-width="2">
+    <ellipse cx="250" cy="234" rx="30" ry="10" transform="rotate(-8 250 234)"/>
+    <ellipse cx="292" cy="228" rx="30" ry="10" transform="rotate(6 292 228)"/>
+    <ellipse cx="270" cy="246" rx="28" ry="9" transform="rotate(-4 270 246)"/>
+  </g>
+
+  <!-- bok choy -->
+  <ellipse cx="380" cy="234" rx="34" ry="11" transform="rotate(-10 380 234)" fill="#5aa860"/>
+  <ellipse cx="372" cy="238" rx="18" ry="5" transform="rotate(-10 372 238)" fill="#e9f5dc"/>
+  <ellipse cx="410" cy="246" rx="28" ry="9" transform="rotate(12 410 246)" fill="#3f8a4d"/>
+
+  <!-- herbs and chili -->
+  <g fill="#2f7a40">
+    <ellipse cx="216" cy="250" rx="8" ry="4" transform="rotate(30 216 250)"/>
+    <ellipse cx="330" cy="244" rx="8" ry="4" transform="rotate(-30 330 244)"/>
+    <ellipse cx="346" cy="254" rx="7" ry="3.5" transform="rotate(20 346 254)"/>
+  </g>
+  <g fill="none" stroke="#d9472f" stroke-width="3">
+    <circle cx="232" cy="240" r="5"/>
+    <circle cx="318" cy="238" r="5"/>
+    <circle cx="436" cy="238" r="4.5"/>
+  </g>
+
+  <!-- lime wedge -->
+  <path d="M154 236 A26 26 0 0 1 200 220 Z" fill="#8cc77f"/>
+  <path d="M160 233 A20 20 0 0 1 195 221 Z" fill="#d7efb4"/>
+
+  <!-- chopsticks -->
+  <g transform="rotate(-28 430 200)">
+    <rect x="300" y="190" width="270" height="9" rx="4.5" fill="#d9a46a"/>
+    <rect x="300" y="206" width="270" height="9" rx="4.5" fill="#c48d55"/>
+  </g>
+</svg>
